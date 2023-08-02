@@ -7,9 +7,10 @@ Long Short-Term Memory (LSTM) is a type of recurrent neural network (RNN) archit
 **1. Memory Cell:** The core of an LSTM is its memory cell, which stores information over long sequences. It allows the model to learn when to forget or retain information, enabling effective learning of dependencies.
 
 **2. Gating Mechanisms:**
-  a. Forget Gate: Determines which information to forget from the previous cell state.
-  b. Input Gate: Determines which new information to add to the cell state.
-  c. Output Gate: Controls the information to be output based on the current cell state.
+
+    a. Forget Gate: Determines which information to forget from the previous cell state.
+    b. Input Gate: Determines which new information to add to the cell state.
+    c. Output Gate: Controls the information to be output based on the current cell state.
 
 **3. Long-Range Dependencies:** LSTMs are designed to capture dependencies between distant elements in a sequence, making them suitable for tasks involving long-term patterns.
 
